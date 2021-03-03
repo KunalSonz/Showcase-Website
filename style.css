@@ -1,0 +1,146 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.owl-carousel {
+  width: 80%;
+}
+
+.card {
+  width: 400px;
+}
+
+.backFirst {
+  background-image: url("fourth.webp");
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.midd {
+  background-image: url("fourth.webp");
+  /* background-color: #14144c; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  object-fit: contain;
+}
+
+.smidd {
+  background-image: url("third.png");
+  /* background-color: #14144c; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  object-fit: contain;
+}
+
+.backSecond {
+  background-image: url("third.png");
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.backThird {
+  background-image: url("aloalo.jpg");
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .backSecond h1 {
+  font-family: "Exo 2", sans-serif;
+} */
+
+.myInfo {
+  color: white;
+  position: relative;
+  top: 30%;
+  left: 4%;
+}
+
+.myInfo h1 {
+  font-size: 30px;
+}
+
+.myInfo p {
+  font-size: 40px;
+  font-weight: 500;
+}
+.myInfo i {
+  font-size: 40px;
+}
+
+.myInfo2 {
+  color: black;
+  position: relative;
+  top: 30%;
+  left: 4%;
+}
+
+.myInfo2 h1 {
+  font-size: 30px;
+}
+
+.myInfo2 p {
+  font-size: 40px;
+  font-weight: 500;
+}
+.myInfo2 i {
+  font-size: 40px;
+}
+
+.Myportfolio a {
+  position: relative;
+  background: #fc8700;
+  background: #43cea2;
+  background: -webkit-linear-gradient(to right, #43cea2 0%, #f0dd2b 100%);
+  background: -moz-linear-gradient(to right, #43cea2 0%, #f0dd2b 100%);
+  background: linear-gradient(to right, #43cea2 0%, #f0dd2b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .myInfo {
+    width: 60%;
+    font-size: 1px;
+  }
+  .myInfo2 {
+    width: 60%;
+    font-size: 1px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .card {
+    width: 400px;
+  }
+}
